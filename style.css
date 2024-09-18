@@ -1,0 +1,1126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.video-text video {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.menubar2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid #bdc2ca;
+}
+
+.navigation a {
+    text-decoration-line: none;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.navigation2 a {
+    text-decoration-line: none;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+
+.hero-video {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px 0 0 0;
+}
+
+.bulding {
+    min-height: 363px;
+}
+
+.bulding h1 {
+    font-size: 65px;
+    color: #fff;
+    margin: 0;
+    max-width: 360px;
+}
+
+.bulding h2 {
+    font-size: 65px;
+    color: #fff;
+    font-style: italic;
+    margin: 0;
+}
+
+.experienced {
+    min-height: 363px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.experienced p {
+    font-size: 20px;
+    color: #ffffffcc;
+    max-width: 400px;
+    margin: 0 0 30px 0;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 50px 0 0;
+}
+
+.button1 {
+    padding: 12px 30px;
+    margin: 0 8px 0 0;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.button2 {
+    padding: 12px 30px;
+    margin: 0 8px 0 0;
+    color: #fff;
+    background-color: #ffffff00;
+    border: 1px solid #fff;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.container1 {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.MissionAndVison {
+    padding: 160px 0;
+}
+
+.GroupVision {
+    display: flex;
+    gap: 10px;
+}
+
+.TheGoup {
+    padding: 0 0 60px 0;
+}
+
+.vision {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.vision h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 400;
+    padding: 0 7px 0 0;
+}
+
+.vision span {
+    margin: 0;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.introduction {
+    max-width: 367px;
+}
+
+.the-Vision {
+    display: flex;
+}
+
+.introduction {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1663ae;
+    text-align: right;
+}
+
+.With-Over {
+    padding: 0 0 0 400px;
+}
+
+.Display-Grid {
+    display: grid;
+    gap: 130px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Real-Estate p {
+    font-size: 20px;
+    color: #333b49;
+    max-width: 630px;
+    margin: 0 0 110px 0;
+}
+
+.Child-Img img {
+    width: 100%;
+    height: 320px;
+}
+
+.marquee {
+    padding: 80px 0;
+    background-color: #f7faff;
+}
+
+.Country {
+    display: flex;
+    gap: 40px;
+}
+
+.country-name h1 {
+    margin: 0;
+    font-size: 65px;
+    font-weight: 400;
+    color: #4f5e79;
+    font-style: italic;
+}
+
+.management {
+    padding: 160px 0 120px 0;
+}
+
+.Display-Grid2 {
+    display: grid;
+    gap: 130px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Who-We-Are h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1663ae;
+    padding: 0 0 8px;
+    margin: 0;
+}
+
+.Who-We-Are h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #333b49;
+    margin: 0;
+    font-style: italic;
+}
+
+.Who-We-Are h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #333b49;
+    margin: 0;
+}
+
+.Who-We-Are p {
+    font-size: 16px;
+    color: #4f5e79;
+    margin: 40px 0;
+    max-width: 410px;
+}
+
+.button3 {
+    padding: 12px 30px;
+    background-color: #171717;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.Europe1 p {
+    color: #333b49;
+    margin: 0;
+    font-size: 96px;
+    font-style: italic;
+}
+
+.Europe1 h6 {
+    color: #4f5e79;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.AboutGroup {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.In-Reveal {
+    display: flex;
+    padding: 0 0 50px 0;
+}
+
+.In-Reveal span {
+    font-size: 40px;
+    columns: #171717;
+    padding: 0 5px 0 0;
+}
+
+.In-Reveal p {
+    font-size: 40px;
+    columns: #171717;
+    padding: 0 0 0 5px;
+    font-style: italic;
+    margin: 0;
+}
+
+.founded {
+    display: flex;
+    padding: 30px 0;
+    font-size: 24px;
+    border-bottom: #d1ddf1 2px solid;
+    max-width: 430px;
+}
+
+.founded1 {
+    display: flex;
+    padding: 30px 0;
+    font-size: 24px;
+    max-width: 430px;
+}
+
+.founded span {
+    font-style: italic;
+    color: #171717;
+    padding: 0 10px 0 0;
+}
+
+.founded p {
+    margin: 0;
+    color: #7b8595;
+}
+
+.founded1 span {
+    font-style: italic;
+    color: #171717;
+    padding: 0 10px 0 0;
+}
+
+.founded1 p {
+    margin: 0;
+    color: #7b8595;
+}
+
+.Atos-Img {
+    width: 100%;
+    height: 550px;
+}
+
+.Atos-Img img {
+    width: 100%;
+    height: 100%;
+}
+
+.headquarters {
+    padding: 45px 0 0 0;
+}
+
+.headquarters p {
+    margin: 0;
+    font-size: 12px;
+    color: #4f5e79;
+}
+
+.Urban {
+    display: flex;
+    gap: 10px;
+}
+
+.Urban h1 {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+}
+
+.Urban span {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Who-We-Are span {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Europe-img {
+    height: 280px;
+    width: 292px;
+    display: flex;
+    justify-items: flex-end;
+}
+
+.Europe-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.Display-Grid3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 80px 0;
+}
+
+.aerial-city {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Technology-Scale {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Technology p{
+    font-size: 14px;
+    color: #4f5e79;
+    margin: 0 0 40px 0;
+    max-width: 375px;
+}
+
+.Technology h2{
+    font-size: 24px;
+    color: #333b49;
+    margin: 0 0 20px 0;
+}
+
+.Video-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Png-Img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.Png-Img img {
+    width: 100%;
+}
+
+.Hospitality {
+    padding: 160px 0;
+    background-color: #f5f5f5;
+}
+
+.Verticals {
+    padding: 0 0 80PX 0;
+}
+
+.Verticals p {
+    padding: 0 0 8px 0;
+    margin: 0;
+    font-size: 14px;
+    color: #1663ae;
+}
+
+.Multidisciplinary {
+    display: flex;
+    gap: 10px;
+}
+
+.Multidisciplinary h2 {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-weight: 400;
+}
+
+.Multidisciplinary span {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Residential {
+    padding: 0 40px 0 0;
+    border-right: #4f5e79 1px solid;
+}
+
+.Residential h4 {
+    font-size: 24px;
+    color: #333b49;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.Residential p {
+    font-size: 16px;
+    color: #4f5e79;
+    margin: 0 0 32px 0;
+    max-width: 315px;
+}
+
+.Residential button {
+    padding: 12px 30px;
+    margin: 0 8px 0 0;
+    background-color: #ffffff00;
+    border: 1px solid #000000;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.Commercial {
+    padding: 0 40px;
+    border-right: #4f5e79 1px solid;
+}
+
+.Commercial h4 {
+    font-size: 24px;
+    color: #333b49;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.Commercial p {
+    font-size: 16px;
+    color: #4f5e79;
+    margin: 0 0 32px 0;
+}
+
+.Commercial button {
+    padding: 12px 30px;
+    margin: 0 8px 0 0;
+    background-color: #ffffff00;
+    border: 1px solid #000000;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.Hospitality2 {
+    padding: 0 0 0 40px;
+}
+
+.Hospitality2 h4 {
+    font-size: 24px;
+    color: #333b49;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+}
+
+.Hospitality2 p {
+    font-size: 16px;
+    color: #4f5e79;
+    margin: 0 0 32px 0;
+    max-width: 315px;
+}
+
+.Hospitality2 button {
+    padding: 12px 30px;
+    margin: 0 8px 0 0;
+    background-color: #ffffff00;
+    border: 1px solid #000000;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.A-Space {
+    padding: 160px 0 48px 0;
+    font-size: 40px;
+    color: #171717;
+}
+
+.growth {
+    max-width: 800px;
+}
+
+.growth p {
+    margin: 0;
+}
+
+.growth span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.Three-Images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.images-Dark {
+    width: 33%;
+    object-fit: contain;
+}
+
+.images-Dark img {
+    width: 100%;
+}
+
+.FamilyOfFunds {
+    padding: 160px 0;
+}
+
+.Funds {
+    padding: 0 0 60PX 0;
+}
+
+.Diversified {
+    display: flex;
+    gap: 10px;
+}
+
+.Diversified h2 {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-weight: 400;
+}
+
+.Diversified span {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Funds h6 {
+    padding: 20px 0 30px 0;
+    font-size: 14px;
+    color: #1663ae;
+    margin: 0;
+}
+
+.Funds p {
+    font-size: 16px;
+    color: #4f5e79;
+    margin: 0;
+}
+
+.aifm {
+    font-size: 16px;
+    color: #4f5e79;
+    margin: 0;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.New-France {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 25px 0 0 0;
+}
+
+.new-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.new-img h2 {
+    margin: 10px 0;
+    color: #333b49;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.new-img p {
+    margin: 15px 0 10px 0;
+    color: #4f5e79;
+    font-size: 20px;
+}
+
+.new-img span {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.france-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.france-img h2 {
+    margin: 10px 0;
+    color: #333b49;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.france-img p {
+    margin: 15px 0 10px 0;
+    color: #4f5e79;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.france-img span {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.new-img2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.new-img2 h2 {
+    margin: 10px 0;
+    color: #333b49;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.new-img2 p {
+    margin: 15px 0 10px 0;
+    color: #4f5e79;
+    font-size: 20px;
+}
+
+.new-img2 span {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.france-img2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.france-img2 h2 {
+    margin: 10px 0;
+    color: #333b49;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.france-img2 p {
+    margin: 15px 0 10px 0;
+    color: #4f5e79;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.france-img2 span {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.New-France2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 64px 0 0 0;
+}
+
+.Banner {
+    width: 100%;
+    position: relative;
+    height: 525px;
+}
+
+.Banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.Banner-Bg {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00000050;
+}
+
+.Maximising {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.landlords {
+    padding: 0 500px 0 0;
+}
+
+.landlords p{
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    max-width: 650px;
+}
+
+.landlords span {
+    font-style: italic;
+}
+
+.container2 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.principals {
+    padding: 160px 0;
+}
+
+.valus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.core h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #333b49;
+    margin: 0;
+}
+
+.core h2 {
+    font-size: 40px;
+    color: #333b49;
+    margin: 0;
+    font-style: italic;
+}
+
+.core p {
+    font-size: 18px;
+    color: #4f5e79;
+    margin: 30px 0 40px 0;
+    max-width: 380px;
+}
+
+.core span {
+    font-size: 14px;
+    color: #1663ae;
+    font-weight: 600;
+}
+
+.Entrepreneurship {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 0 30px 0;
+}
+
+.Entrepreneurship2 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.Entrepreneurship3 {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+}
+
+.Icon-Img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #4f5e79 dashed 1px;
+}
+
+.combined h1 {
+    font-size: 24px;
+    color: #333b49;
+    font-weight: 400;
+}
+
+.combined p {
+    font-size: 16px;
+    color: #4f5e79;
+    padding: 0 16px 0 0;
+    margin: 0 0 40px 0;
+    max-width: 240px;
+}
+
+.contact-box {
+    padding: 160px 0;
+    background-color: #f6f9ff;
+}
+
+.For-Contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ForAnyEnquiries p {
+    font-size: 40px;
+    margin: 0;
+    color: #333b49;
+    max-width: 370px;
+}
+
+.ForAnyEnquiries span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.ContactUs h6 {
+    margin: 0 0 38px 0;
+    font-size: 14px;
+    color: #1663ae;
+}
+
+.Form-Box {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.YourName {
+    padding: 0 0 40px 0;
+}
+
+.YourName input {
+    border: none;
+    background-color: #ffffff00;
+    border-bottom: 1px #8e939d solid;
+    min-width: 260px;
+    min-height: 23px;
+}
+
+.YourName input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-size: 18px;
+}
+
+.Massage textarea {
+    border: none;
+    background-color: #ffffff00;
+    border-bottom: 1px #8e939d solid;
+    min-width: 100%;
+    min-height: 70px;
+}
+
+.Massage textarea:focus {
+    outline: none;
+}
+
+.Button4 {
+    padding: 40px 0 0 0;
+}
+
+.Button4 button {
+    padding: 15px 25px;
+    background-color: #ffffff00;
+    color: #000;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.Footer {
+    padding: 100px 0 30px 0;
+    background-color: #162033;
+}
+
+.Footer-Grid{
+    padding: 0 0 60px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: #7b8595 1px solid;
+}
+
+.Menu h2 {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.UrbenRejeneration h2 {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.SocialMedia h2 {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.ancer-list a {
+    display: block;
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 14px;
+    padding: 0 0 16px 0;
+}
+
+.Footer-end {
+    padding: 30px 0 0 0;
+    display: flex;
+    gap: 40px;
+}
+
+.Footer-end p {
+    font-size: 14px;
+    color: #bbc3c9;
+    padding: 0 40px 0 0;
+    margin: 0;
+}
+
+.prosperity {
+    padding: 100px 0 120px 0;
+}
+
+.under-utilised {
+    font-size: 65px;
+    color: #333b49;
+}
+
+.under-utilised p {
+    margin: 0;
+    max-width: 955px;
+}
+
+.under-utilised span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.maintain {
+    padding: 160px 0 0 0;
+}
+
+.TechnologySection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tech-Scale h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1663ae;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+.under-tech {
+    font-size: 30px;
+    color: #333b49;
+}
+
+.under-tech p {
+    margin: 0;
+    max-width: 370px;
+}
+
+.under-tech span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.tech-Button {
+    padding: 50px 0 0 0;
+}
+
+.tech-Button button {
+    padding: 15px 30px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.Tech-Scale2 {
+    padding: 80px;
+}
+
+.under-Scale2 {
+    font-size: 40px;
+    color: #333b49;
+    padding: 0 0 100px 0;
+}
+
+.under-Scale2 p {
+    margin: 0;
+    max-width: 460px;
+}
+
+.under-Scale2 span {
+    font-style: italic;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.Tech-Scale2 h2 {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    color: #333b49;
+    max-width: 480px;
+    font-weight: 400;
+}
+
+.Tech-Scale2 h6 {
+    margin: 0;
+    font-size: 16px;
+    color: #4f5e79;
+    max-width: 480px;
+    font-weight: 400;
+}
